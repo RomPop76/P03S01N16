@@ -36,7 +36,7 @@ const name = "Janek";
 name.length; //właściwość której nie ma w typie prostym, i teraz zaczyna pracować silnik, który robi sobie mniej więcej coś takiego jak ponizej by pobrać wartość tej właściwości
 // 2- SILNIK TWORZY OBIEKT NA TYM ETAPIE (nazwa zmiennejj tylko dla przykładu)
 //Tworzy obiekt String np. 
-// const nameTemporary = new String(name);
+const nameTemporary = new String(name);
 //nameTemporary.length
 // 3 - Zwraca 5 (bo taką ma długość "Janek") i usuwa obiekt String (w przykłądzie znajduje się w nameTemporary)
 
